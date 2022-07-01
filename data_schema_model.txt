@@ -1,0 +1,21 @@
+TABLE - RECIPE
+
+        recipe_id (PK)
+        recipe_name
+
+TABLE - INGREDIENT
+        ingredient_id (PK)
+        ingredient_name
+        ingredient_unit
+
+TABLE - STEP
+        step_id (PK)
+        step_name(instruction name)
+        step_order
+        recipe_id (FK)
+
+TABLE - STEP_INGREDIENT
+        step_ingredient_id (PK)
+        step_id(FK)
+        ingredient_id(FK)
+        quantity
