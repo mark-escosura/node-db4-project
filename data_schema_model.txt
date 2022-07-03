@@ -1,5 +1,4 @@
 TABLE - RECIPE
-
         recipe_id (PK)
         recipe_name
 
