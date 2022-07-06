@@ -29,7 +29,7 @@ const steps = [
   // Broccoli Pesto Pasta
   { step_name: 'Heat pan', step_order: 1, recipe_id: 1 },
   { step_name: 'Add broccoli', step_order: 2, recipe_id: 1 },
-  { step_name: 'Add paso mixed with pasta', step_order: 3, recipe_id: 1 },
+  { step_name: 'Add pesto mixed with pasta', step_order: 3, recipe_id: 1 },
   // Lemon Chicken
   { step_name: 'Heat oven', step_order: 1, recipe_id: 2 },
   { step_name: 'Put chicken and lemon in oven', step_order: 2, recipe_id: 2 },
